@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.list-group-item {
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.btn-primary, .btn-info, .btn-secondary, .btn-danger {
+    margin-right: 10px;
+}
+
+form .mb-3 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form .mb-3 input, form .mb-3 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
